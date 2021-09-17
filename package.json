@@ -1,0 +1,21 @@
+{
+  "name": "bdd_api_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "node report.js",
+    "test": "npx cucumber-js --exit -f json:cucumber_report.json --publish-quiet"
+  },
+  "author": "Bharath Kumar S <+372 5479 0312> <bharathkumarkarthick@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "ajv": "^8.6.2",
+    "axios": "^0.21.4",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "cucumber-html-reporter": "^5.5.0",
+    "dotenv": "^10.0.0"
+  }
+}
